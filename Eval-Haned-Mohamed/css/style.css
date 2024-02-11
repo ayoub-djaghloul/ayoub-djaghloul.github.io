@@ -1,0 +1,172 @@
+/***********************************
+FONTS 
+************************************/
+
+@font-face {
+    font-family: "Liberation";
+    src: 
+        url("/fonts/LiberationSans-Bold-webfont.ttf") format("ttf"),
+        url("/fonts/LiberationSans-Regular-webfont.ttf") format("ttf");
+}
+
+/***********************************
+GENERALITES
+************************************/
+
+section {
+    background-color: #1c1c1c;
+}
+
+header {
+    background-color:#ececec;
+}
+
+section, footer {
+    position: relative;
+    text-align: center;
+
+}
+
+/***********************************
+Navbar
+************************************/
+ul
+{
+    list-style: none;
+}
+
+header nav ul li a 
+{
+    margin-right: 20px;
+    text-decoration: none;
+    color: #1c1c1c;
+}
+
+
+
+/***********************************
+Section 
+************************************/
+
+section div{
+    position: relative;
+    text-align: center;  
+    
+}
+
+section div img{
+    padding: 1vh !important;
+}
+
+section div p {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.texte_centrer {
+    font-family: "Liberation";
+    font-weight: bold;
+    color: #ea9f05;
+    width: auto;
+    padding: 0.5vh;
+    border-radius: 10%;
+    background-color: #1c1c1c;
+    position:absolute;
+    top:0px;
+    right:0px;
+}
+
+.texte_bottom {
+    font-family: "Liberation";
+    width: auto;
+    border-radius: 10%;
+    position:fixed; position:relative;
+    margin:0 auto;
+    top: -9%;  
+}
+
+
+#prix {
+    margin: auto !important ;
+}
+
+button {
+    background-color: #1c1c1c;
+    color: white;
+    padding: 0 3vh;
+
+}
+
+
+/***********************************
+Footer
+************************************/
+.block {
+    width: 576px;
+    position: relative;
+    top:-27px;
+    background-color: white;
+    margin: auto;
+    padding: 0.2vh;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 1vh;
+}
+
+.block ul li a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: #1c1c1c;
+}
+
+i {
+    margin: auto;
+}
+
+footer {
+    background-color: #373737;
+    color: #ececec;
+    padding-top: 0;
+}
+
+#contact {
+    border-top: solid #818181;
+}
+
+
+
+
+/***********************************
+Flex
+************************************/
+
+
+.flex {
+    display: flex;
+}
+.flex-start {
+    justify-content: flex-start;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+.space-around {
+    justify-content: space-around;}
+
+.space-between {
+        justify-content: space-between;
+}
+
+.center {
+    justify-content: center;
+}
+
+
+
+.wrap {
+flex-wrap: wrap;
+}
+.column{
+    flex-direction: column
+}
