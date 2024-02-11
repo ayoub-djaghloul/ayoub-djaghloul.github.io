@@ -389,18 +389,20 @@
 
     <footer id="footer" class="container my-3">
       Formulaire de contact <br><br>
-      <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Nom</label>
-        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nom Prénom">
-      </div>
-      <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Email address</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-      </div>
-      <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-      </div>
+      <form action="mailto: contact@webmaster.fr?subject=Contact%20site%20perso&body=Bonjour%20je%20souhaiterais%20vous%20contacter%20pour%20...">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Votre adresse mail</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Votre message</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Envoyer</button>
+      </form>
+    </footer>
+
+  </div> 
 
       <div class=" d-flex justify-content-center">
         <a style="color: black;" href="https://www.linkedin.com/in/haneddev/" target="_blank"><i
